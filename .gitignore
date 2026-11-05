@@ -1,0 +1,17 @@
+.build/
+.swiftpm/
+.DS_Store
+
+# Keep local release artifacts, private reports and credentials out of source.
+*.dmg
+*.dmg.sha256
+*.dSYM/
+*.p12
+*.pfx
+*.pem
+*.key
+.env
+.env.*
+captures/
+diagnostics/
+vendor-backups/
